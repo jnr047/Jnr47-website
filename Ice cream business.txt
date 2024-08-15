@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Junior's IceCream shop</title>
+	<head>
+	<body>
+		<h1>Junior's IceCream Feast</h1>
+		<img src="Screenshot_20240813_163207_Chrome.jpg">
+		<p>
+			The 
+			
+		</p>
+	</body>
+</html>

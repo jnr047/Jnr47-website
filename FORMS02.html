@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BOOK ORDER FORM</title>
+	</head>
+	<body>
+		<h1>BOOK ORDER FORM</h1>
+		<form action=" ">
+			<label for = "fname">Name:</label>
+			<input type = "text" id="fname" name="First Name"><br><br>
+			<label for = "category">Please select category of book:</label>
+			<select id = "category" name = "category">
+				<option value = "adult">Adult Fiction</option>
+				<option value = "non">Non-Fiction</option>
+				<option value = "children">Children</option>
+				<option value = "young">Young Adult</option>
+			</select>
+			<br>
+			<br>
+			<label for = "Cnumber">Catalogue Number:</label>
+			<input type = "text" id="Cnumber" name="Catalogue Number"><br><br>
+			<label for = "purchased">Check if you have purchased from us before?</label>
+			<input type = "Checkbox" id="purchased" name="purchased"><br><br>
+			How would you like us to pay?Choose any of the following<br><br>
+			<ol style="text-align:left">
+				<li>
+					<input type = "radio" id ="mastercard" name = "mastercard">
+					<label for = "mastercard">Mastercard</label>
+				</li>
+				<li>
+					<input type = "radio" id ="visa" name = "visa">
+					<label for = "visa">Visa</label>
+				</li>
+				<li>
+					<input type = "radio" id ="Diners" name = "Diners">
+					<label for = "Diners">Diners Card</label>
+				</li>
+			</ol>
+			Thank you
+			<input type = "submit" value="Submit order"><br><br>
+			To start again
+			<input type = "reset" value="Clear Form">	
+		</form>
+	</body>
+</html>
